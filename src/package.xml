@@ -81,6 +81,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>MDTJumpstartApp</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Appointment__c</members>
         <members>Apppage__c</members>
         <members>Car__c</members>
@@ -127,17 +131,25 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>BackBone_Force</members>
         <members>EmberJS</members>
+        <members>JqueryMobile</members>
         <members>SiteSamples</members>
+        <members>TDM_Resources</members>
         <members>UIComponents</members>
+        <members>addvocate</members>
         <members>backicon</members>
+        <members>bootstrapCarousel</members>
         <members>cloudlogo</members>
         <members>cloudstyle</members>
+        <members>hammerJS</members>
         <members>homeicon</members>
+        <members>newsfjs</members>
         <members>pushnotifications</members>
         <members>resources</members>
         <members>swipeView</members>
         <members>test_document</members>
+        <members>transitions</members>
         <members>vipbadge</members>
         <name>StaticResource</name>
     </types>

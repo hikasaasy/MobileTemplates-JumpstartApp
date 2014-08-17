@@ -5,6 +5,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -17,11 +21,19 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -32,6 +44,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Actual pages for mobile app. This is where springboards launch from.
 
@@ -47,6 +60,7 @@ Use attachments to associate an image with the page</description>
         <label>Background Color</label>
         <length>10</length>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -55,6 +69,7 @@ Use attachments to associate an image with the page</description>
         <externalId>false</externalId>
         <label>Background Image</label>
         <length>32768</length>
+        <trackTrending>false</trackTrending>
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
@@ -67,6 +82,7 @@ Use attachments to associate an image with the page</description>
         <relationshipLabel>App Pages</relationshipLabel>
         <relationshipName>App_Pages</relationshipName>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -74,6 +90,7 @@ Use attachments to associate an image with the page</description>
         <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
+        <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
@@ -82,6 +99,7 @@ Use attachments to associate an image with the page</description>
         <externalId>false</externalId>
         <label>Icon</label>
         <length>32768</length>
+        <trackTrending>false</trackTrending>
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
@@ -91,6 +109,7 @@ Use attachments to associate an image with the page</description>
         <label>Title</label>
         <length>200</length>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -107,7 +126,6 @@ Use attachments to associate an image with the page</description>
         <label>Apppage Id</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>App Pages</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

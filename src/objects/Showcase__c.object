@@ -5,6 +5,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -17,11 +21,19 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -32,6 +44,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Customer showcase information.
 
@@ -47,6 +60,7 @@ Customer use case images should be added as attachments.</description>
         <inlineHelpText>images should be 640w x 1140h</inlineHelpText>
         <label>Background Image</label>
         <length>32768</length>
+        <trackTrending>false</trackTrending>
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
@@ -57,6 +71,7 @@ Customer use case images should be added as attachments.</description>
         <label>Customer Name</label>
         <length>200</length>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -69,6 +84,7 @@ Customer use case images should be added as attachments.</description>
         <relationshipLabel>Showcases</relationshipLabel>
         <relationshipName>Showcases</relationshipName>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -77,6 +93,7 @@ Customer use case images should be added as attachments.</description>
         <externalId>false</externalId>
         <label>Use Case Description</label>
         <length>32768</length>
+        <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
@@ -91,7 +108,6 @@ Customer use case images should be added as attachments.</description>
         <label>Showcase Id</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Showcases</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

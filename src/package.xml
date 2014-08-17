@@ -1,28 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>AppPagesController</members>
+        <members>AutocreatedRegHandler1366651501301</members>
+        <members>ChangePasswordController</members>
+        <members>DemoAppController</members>
+        <members>ForgotPasswordController</members>
+        <members>GeocodingHelper</members>
+        <members>MobileDemoAppController</members>
+        <members>MyProfilePageController</members>
+        <members>PackagesController</members>
+        <members>PortalHandler</members>
+        <members>PropertyInspectionController</members>
+        <members>SiteHomeController</members>
+        <members>SiteLoginController</members>
+        <members>SiteRegisterController</members>
+        <members>TDMDemoPortalHandler</members>
+        <members>TicketHelper</members>
+        <members>TodoController</members>
+        <members>XMLDom</members>
+        <members>showcasesController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>Addvocate</members>
+        <members>AnswersHome</members>
+        <members>AppPageLogin</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>ConfirmLead</members>
+        <members>DocusignEnd</members>
+        <members>DocusignStart</members>
+        <members>Error</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>InspectionReport</members>
+        <members>InventoryReport</members>
+        <members>InventoryReportSOQL</members>
+        <members>LeadGen</members>
+        <members>MyContacts</members>
+        <members>MyProfilePage</members>
+        <members>NearByAppointments</members>
+        <members>NotImplementedYet</members>
+        <members>ProjectMilestones</members>
+        <members>SSOInfo</members>
+        <members>SiteHome</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>SocialSignOn</members>
+        <members>StdExceptionTemplate</members>
+        <members>SubmitTicket</members>
+        <members>TDMDemoAppSSO</members>
+        <members>TestPage</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <members>apppages</members>
+        <members>bookRoom</members>
+        <members>demoAppHome</members>
+        <members>mobileDemoApp</members>
+        <members>showcases</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>geocodeServiceAddress</members>
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Appointment__c</members>
+        <members>Apppage__c</members>
+        <members>Car__c</members>
+        <members>ConferenceRoomReservation__c</members>
+        <members>ConferenceRoom__c</members>
+        <members>DemoApp__c</members>
+        <members>IT_Ticket__c</members>
+        <members>Package__c</members>
+        <members>Project_Milestone__c</members>
+        <members>Project__c</members>
+        <members>Property_Inspection__c</members>
+        <members>Shipper__c</members>
+        <members>Showcase__c</members>
+        <members>Springboard_Pages__c</members>
+        <members>Springboard__c</members>
+        <members>SurveyQuestion__c</members>
+        <members>Survey_Answer__c</members>
+        <members>Survey_Response__c</members>
+        <members>Survey__c</members>
+        <members>Todo__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>EmberJS</members>
+        <members>SiteSamples</members>
+        <members>UIComponents</members>
+        <members>backicon</members>
+        <members>cloudlogo</members>
+        <members>cloudstyle</members>
+        <members>homeicon</members>
+        <members>pushnotifications</members>
+        <members>resources</members>
+        <members>swipeView</members>
+        <members>test_document</members>
+        <members>vipbadge</members>
         <name>StaticResource</name>
     </types>
-    <version>27.0</version>
+    <version>30.0</version>
 </Package>

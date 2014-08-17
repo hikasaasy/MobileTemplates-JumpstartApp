@@ -5,6 +5,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -17,11 +21,19 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -32,6 +44,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableFeeds>false</enableFeeds>
@@ -43,6 +56,7 @@
         <label>City Address</label>
         <length>200</length>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -54,6 +68,7 @@
         <referenceTo>User</referenceTo>
         <relationshipName>Self_Service_Tickets</relationshipName>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -64,6 +79,7 @@
         <referenceTo>User</referenceTo>
         <relationshipName>Self_Service_Tickets1</relationshipName>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -71,6 +87,7 @@
         <externalId>false</externalId>
         <label>Problem Description</label>
         <length>30000</length>
+        <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>5</visibleLines>
     </fields>
@@ -79,6 +96,7 @@
         <externalId>false</externalId>
         <label>Requested Appointment  Date</label>
         <required>false</required>
+        <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <fields>
@@ -124,6 +142,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -133,6 +152,7 @@
         <label>Service Address Geo</label>
         <required>false</required>
         <scale>6</scale>
+        <trackTrending>false</trackTrending>
         <type>Location</type>
     </fields>
     <fields>
@@ -141,6 +161,7 @@
         <label>State Address</label>
         <length>2</length>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -150,6 +171,7 @@
         <label>Street Address</label>
         <length>200</length>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -158,6 +180,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>VIP</label>
+        <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -166,6 +189,7 @@
         <label>Zip Address</label>
         <length>10</length>
         <required>true</required>
+        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -192,6 +216,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <label>Appointment</label>
@@ -210,7 +235,6 @@
         <label>Appointment Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Appointments</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Contact_Name__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Field_Technician__c</customTabListAdditionalFields>

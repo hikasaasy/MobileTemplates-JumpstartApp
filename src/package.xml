@@ -51,6 +51,8 @@
         <members>LeadGen</members>
         <members>MyContacts</members>
         <members>MyProfilePage</members>
+        <members>MyServiceRequestsBackbone</members>
+        <members>MyServiceRequestsEmberJS</members>
         <members>NearByAppointments</members>
         <members>NotImplementedYet</members>
         <members>ProjectMilestones</members>
@@ -100,6 +102,29 @@
         <members>Survey__c</members>
         <members>Todo__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Appointment__c</members>
+        <members>Apppage__c</members>
+        <members>Car__c</members>
+        <members>ConferenceRoom__c</members>
+        <members>DS_Start</members>
+        <members>DemoApp__c</members>
+        <members>Field_Tech_Backbone</members>
+        <members>Field_Tech_EmberJS</members>
+        <members>IT_Ticket__c</members>
+        <members>MyContacts</members>
+        <members>Package__c</members>
+        <members>Project__c</members>
+        <members>Property_Inspection__c</members>
+        <members>Shipper__c</members>
+        <members>Showcase__c</members>
+        <members>Springboard_Pages__c</members>
+        <members>Springboard__c</members>
+        <members>SurveyQuestion__c</members>
+        <members>Survey__c</members>
+        <members>testApp</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>EmberJS</members>
